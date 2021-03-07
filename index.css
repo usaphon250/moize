@@ -1,0 +1,64 @@
+.menubar-aqua {
+  background: aqua;
+}
+.menubar {
+  display: inline-block;
+}
+.white {
+  background: white
+}
+header {
+  z-index: 10;
+　height: 64px;
+  position: absolute;
+  top: 0px;
+  background-color: lightskyblue;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+ul {
+　　overflow:hidden;
+　　list-style:none;
+　　margin: 0 auto;
+　　z-index: 20;
+}
+.title {
+  height: 30px;
+}
+.container {
+  top: 5px;
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+.myButton {
+box-shadow: 0px 0px 0px 2px #9fb4f2;
+background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+background-color:#7892c2;
+border-radius:10px;
+border:1px solid #4e6096;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:19px;
+padding:12px 37px;
+text-decoration:none;
+text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+background-color:#476e9e;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
